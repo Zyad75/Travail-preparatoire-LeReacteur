@@ -1,0 +1,193 @@
+body {
+  background-color: rgb(29, 154, 112);
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  font-size: 16px;
+}
+.header {
+  margin: 0 auto;
+}
+.principaltitle {
+  font-size: 48px;
+  color: white;
+  line-height: 200px;
+  text-align: center;
+}
+.main-block {
+  width: 1024px;
+  height: auto;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.block-of-titles {
+  display: flex;
+  /* justify-content: center*/
+  text-align: center;
+}
+.titles-for-sections {
+  line-height: 100px;
+  font-size: 20px;
+  color: #190f33;
+  text-decoration: none;
+  flex: 1;
+}
+.titles-for-sections:hover {
+  color: rgb(29, 154, 112);
+  cursor: pointer;
+}
+
+.computer-picture {
+  height: 400px;
+  width: 1024px;
+  object-fit: cover;
+}
+.section-type1 {
+  padding: 100px;
+  background-color: white;
+}
+.section-type2 {
+  padding: 100px;
+  background-color: #eeeef7;
+}
+.dog {
+  height: 250px;
+  width: 250px;
+  border: #fcc01a solid 3px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.img-and-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding-bottom: 100px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  margin: 0 80px;
+  text-align: center;
+}
+.name {
+  line-height: 30px;
+  font-size: 38px;
+  font-weight: bold;
+  padding-bottom: 50px;
+  color: #190f33;
+}
+.city {
+  line-height: 30px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.aboutzyad {
+  font-size: 26px;
+  font-weight: bold;
+  color: #190f33;
+  padding-bottom: 40px;
+}
+.text-about-me {
+  line-height: 30px;
+  text-align: justify;
+}
+.title-formation {
+  font-size: 30px;
+  font-weight: bold;
+  color: #190f33;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.text-formation {
+  text-align: center;
+  padding-bottom: 80px;
+}
+.logo-formation {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 80px;
+}
+.logos-img {
+  height: 100px;
+}
+.text2-formation {
+  text-align: center;
+  line-height: 30px;
+  padding-bottom: 80px;
+}
+span {
+  color: #190f33;
+  font-weight: bold;
+}
+.logo2-formation {
+  display: flex;
+  justify-content: space-around;
+}
+.img-projects {
+  width: 500px;
+  padding-right: 60px;
+}
+.h3-projects {
+  font-size: 26px;
+  font-weight: bold;
+  color: #190f33;
+  padding-bottom: 40px;
+}
+.h4-projects {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.lists-projects {
+  line-height: 30px;
+  list-style-type: disc;
+}
+.projets-img-and-text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+}
+.contact-img {
+  height: 30px;
+  padding-right: 20px;
+}
+.mail {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.hover-contact {
+  text-decoration: none;
+  color: black;
+}
+.hover-contact:hover {
+  cursor: pointer;
+  color: rgb(29, 154, 112);
+}
+#contact {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.text-footer {
+  line-height: 40px;
+  color: #c4c4c4;
+}
+.div-footer {
+  text-align: center;
+  padding-top: 100px;
+}
+.le-reacteur-link {
+  line-height: 40px;
+  color: #fcc01a;
+  text-decoration: none;
+}
+.le-reacteur-link:hover {
+  cursor: pointer;
+  color: #190f33;
+}
+footer {
+  height: 300px;
+}

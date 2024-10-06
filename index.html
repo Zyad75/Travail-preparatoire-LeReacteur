@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zyad portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Le contenu de votre page Web sera à insérer ici -->
+    <header class="header">
+      <!--Titre principal de la page web-->
+      <h1 class="principaltitle">Mon portfolio</h1>
+    </header>
+    <!--block principal du site-->
+    <main class="main-block">
+      <nav class="block-of-titles">
+        <!--Liens internes du site (raccourcis accès sections)-->
+        <a class="titles-for-sections" href="#about-me"> À propos de moi</a>
+        <a class="titles-for-sections" href="#formation">Formation</a>
+        <a class="titles-for-sections" href="#my-projects">Mes projets</a>
+        <a class="titles-for-sections" href="#contact">Contact</a>
+      </nav>
+      <!--Image décorative-->
+      <img class="computer-picture" src="/img/computer.jpeg" />
+      <!--Première section (à propos de moi)-->
+      <section class="section-type1" id="about-me">
+        <!--Image + profil (utilisation des propriétés flexbox pour ajuster et agencer les élements)-->
+        <div class="img-and-profile">
+          <img class="dog" src="/img/dog.jpeg" />
+          <div class="profile">
+            <p class="name">Zyad Taibi</p>
+            <p class="city">Paris</p>
+          </div>
+        </div>
+        <div class="block-about-me">
+          <h3 class="aboutzyad">À propos de moi</h3>
+          <p class="text-about-me">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Necessitatibus consequuntur ea recusandae eius facere voluptate quo,
+            cupiditate placeat dolor temporibus quam libero aliquam amet eos
+            consectetur error molestiae reiciendis saepe. Totam maiores nobis
+            eum vero sunt id quae assumenda pariatur, in iure sed eligendi
+            magnam officiis ducimus, error minus! Numquam sapiente iste est
+            eveniet corrupti cum labore quis atque dicta. Pariatur, architecto
+            quaerat officiis atque accusamus suscipit ipsa dolore. Libero
+            incidunt eum quidem culpa itaque et magnam dolorem iusto aliquam
+            dicta autem fugit alias molestias tempore consectetur qui, porro
+            amet.
+          </p>
+        </div>
+      </section>
+      <!--deuxieme section formation-->
+      <section class="section-type2" id="formation">
+        <h2 class="title-formation">Formation</h2>
+        <p class="text-formation">
+          Les technologies sur lesquelles je me forme actuellement :
+        </p>
+        <div class="logo-formation">
+          <img class="logos-img" src="/img/html.png" />
+          <img class="logos-img" src="/img/css.png" />
+          <img class="logos-img" src="/img/javascript.png" />
+        </div>
+        <p class="text2-formation">
+          "Pochainement, je suivrai la formation
+          <span>Développement Web & Mobile</span> au <span>Reacteur</span> afin
+          de perfectionner mes connaissances et d'apprendre de nouvelles
+          technologies :"
+        </p>
+        <div class="logo2-formation">
+          <img class="logos-img" src="/img/mongodb.png" />
+          <img class="logos-img" src="/img/react.png" />
+        </div>
+      </section>
+      <!--Section 3 projets (utilisation de flexbox pour l'agencements des élements)-->
+      <section class="section-type1" id="my-projects">
+        <h2 class="title-formation">Projets</h2>
+        <p class="text2-formation">
+          Au cours de ma formation Développement Web & Mobile, je réaliserai
+          plusieurs répliques d'applications Web et d'applications Mobiles :"
+        </p>
+        <div class="projets-img-and-text1">
+          <img class="img-projects" src="/img/tripadvisor.png" />
+          <div class="titles-texts-projets">
+            <h3 class="h3-projects">Tripadvisor Web</h3>
+            <h4 class="h4-projects">Projet Front-End</h4>
+            <ul>
+              <li class="lists-projects">Envoi automatisé de mails</li>
+              <li class="lists-projects">Carousel de photos</li>
+            </ul>
+          </div>
+        </div>
+        <div class="projets-img-and-text1">
+          <img class="img-projects" src="/img/deliveroo.png" />
+          <div class="titles-texts-projets">
+            <h3 class="h3-projects">Deliveroo Web</h3>
+            <h4 class="h4-projects">Projet Front-End</h4>
+            <ul>
+              <li class="lists-projects">Récupération de données</li>
+              <li class="lists-projects">Panier de commandes</li>
+            </ul>
+          </div>
+        </div>
+        <div class="projets-img-and-text1">
+          <img class="img-projects" src="/img/deliveroo.png" />
+          <div class="titles-texts-projets">
+            <h3 class="h3-projects">Vinted Web</h3>
+            <h4 class="h4-projects">Projet Full-Stack</h4>
+            <ul>
+              <li class="lists-projects">Inscription / connexion</li>
+              <li class="lists-projects">Récupération de données</li>
+              <li class="lists-projects">Publication d'annonces</li>
+              <li class="lists-projects">Barre de recherche</li>
+              <li class="lists-projects">Paiement</li>
+              <li class="lists-projects">Upload de photos</li>
+            </ul>
+          </div>
+        </div>
+        <div class="projets-img-and-text1">
+          <img class="img-projects" src="/img/airbnb.png" />
+          <div class="titles-texts-projets">
+            <h3 class="h3-projects">Airbnb Mobile</h3>
+            <h4 class="h4-projects">Projet Full-Stack</h4>
+            <ul>
+              <li class="lists-projects">Inscription / connexion</li>
+              <li class="lists-projects">Modification du profil utilisateur</li>
+              <li class="lists-projects">Affichage de cartes</li>
+              <li class="lists-projects">Géolocalisation</li>
+              <li class="lists-projects">Accès à la galerie d'images</li>
+              <li class="lists-projects">Accès à l'Appareil photo</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!--derniere section (contact) avec liens externes-->
+      <section class="section-type2" id="contact">
+        <h2 class="title-formation">Contactez-moi</h2>
+        <div>
+          <div class="mail">
+            <img class="contact-img" src="/img/mail.jpg" />
+            <p>Zyadtaibi925@gmail.com</p>
+          </div>
+          <div class="mail">
+            <img class="contact-img" src="/img/linkedin.png" />
+            <a
+              href="https://www.linkedin.com/in/zyad-taibi"
+              class="hover-contact"
+              target="_blank"
+              >https://www.linkedin.com/in/zyad-taibi</a
+            >
+          </div>
+          <div class="mail">
+            <img class="contact-img" src="/img/github.png" />
+            <a
+              class="hover-contact"
+              href="https://github.com/Zyad75"
+              target="_blank"
+              >https://github.com/Zyad75</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Fin du block principal du site-->
+    <!--Footer (bas de la page web) Avec un lien externe-->
+    <footer>
+      <div class="div-footer">
+        <p class="text-footer">Projet réalisé par Zyad Taibi</p>
+        <p class="text-footer">
+          Préparation à la formation Développement Web & Mobile
+        </p>
+        <a
+          href="https://www.lereacteur.io"
+          class="le-reacteur-link"
+          target="_blank"
+          >Le Reacteur</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
